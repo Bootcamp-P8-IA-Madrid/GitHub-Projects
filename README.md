@@ -1,8 +1,8 @@
-# Biblioteca de la Clase
+# 📚 Biblioteca de la Clase
 
 Una práctica para entender **GitHub Projects** haciendo un Sprint de Scrum por equipos.
 
-## Qué es GitHub Projects
+## 🗂️ Qué es GitHub Projects
 
 Un tablero para organizar el trabajo de un repo.
 
@@ -20,7 +20,7 @@ Es el tablero de Scrum, pero conectado al código: cuando tu trabajo entra en `m
 | Terminado (Done) | Revisado por un compañero y mergeado en `main` |
 | Incremento | Lo que hay en `main` |
 
-## El ejercicio
+## 🎯 El ejercicio
 
 Por equipos de 3 o 4. Cada equipo recomienda libros en la web de la clase (`index.html`). Cada libro es una tarea, y cada tarea pasa por el tablero.
 
@@ -69,7 +69,7 @@ Por equipos de 3 o 4. Cada equipo recomienda libros en la web de la clase (`inde
 
 Si un compañero te pide revisión, eso va antes que seguir con lo tuyo.
 
-## Si algo falla
+## 🛠️ Si algo falla
 
 - **El check *Guardián de PRs* sale en rojo:** pulsa *Details* y te dice qué falta: el nombre de la rama o el `Closes #7`. La descripción del PR se puede editar.
 - ***This branch has conflicts*:** es normal, todo el mundo toca `lista.js`. Pulsa *Resolve conflicts*, deja las dos líneas, borra las marcas `<<<<<<<` `=======` `>>>>>>>` y pulsa *Mark as resolved* → *Commit merge*.
