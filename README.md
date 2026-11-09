@@ -58,7 +58,13 @@ Por equipos de 3 o 4. Cada equipo recomienda libros en la web de la clase (`inde
 1. En GitHub, pulsa **Compare & pull request**.
 2. En la descripción, cambia `Closes #N` por `Closes #7` (tu número). Eso une el Pull Request con tu tarjeta.
 3. En **Reviewers**, elige a alguien de tu equipo y pulsa **Create pull request**. Arrastra tu tarjeta a `In review`.
-4. Tu compañero lo revisa y pulsa **Approve**.
+4. Tu compañero lo aprueba. Escribir un comentario no es aprobar. Quien revisa hace esto:
+   1. Abre el Pull Request y entra en la pestaña **Files changed**.
+   2. Pulsa el botón verde **Review changes**, arriba a la derecha (en algunas cuentas se llama **Submit review**).
+   3. Marca **Approve**. Viene marcado **Comment**: si se queda así, el Pull Request sigue sin aprobar.
+   4. Pulsa **Submit review**.
+
+   Está aprobado cuando junto al nombre de quien revisa sale un check verde y el texto *approved these changes*.
 5. Pulsa **Merge pull request**. Mira el tablero: tu tarjeta ha pasado sola a `Done`.
 6. Pulsa **Delete branch**. En tu ordenador:
    ```bash

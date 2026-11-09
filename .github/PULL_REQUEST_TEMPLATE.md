@@ -14,4 +14,5 @@ Closes #N
 ## Para quien revisa
 
 Mira *Files changed*: ¿el libro tiene título, autor y un porqué claro? ¿Solo toca `libros/`?
-Si está bien, *Review changes → Approve*. Si no, *Request changes* diciendo qué falta.
+- Si está bien: **Review changes** → marca **Approve** → **Submit review**. Dejar solo un comentario no aprueba.
+- Si no: **Review changes** → marca **Request changes** → escribe qué falta → **Submit review**.
