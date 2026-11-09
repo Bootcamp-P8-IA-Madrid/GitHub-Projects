@@ -26,10 +26,10 @@ Por equipos de 3 o 4. Cada equipo recomienda libros en la web de la clase (`inde
 
 **Entrega:** el sprint termina 20 minutos antes del final de la clase. Cuenta lo que esté en `main`.
 
-### 1. Planificad (en equipo)
+### 1. Planifica con tu equipo
 
-1. Poneos un nombre de equipo y elegid un libro por persona.
-2. Abrid el tablero: pestaña **Projects** del repo. Trabajamos siempre en la primera vista; las demás pestañas no se usan hoy.
+1. El equipo elige un nombre y un libro por persona.
+2. Abre el tablero: pestaña **Projects** del repo. Se trabaja siempre en la primera vista; las demás pestañas no se usan hoy.
 3. Cada persona crea la tarjeta de su libro: al final de la columna `Backlog`, **+ Add item** → escribe el título del libro → **Create new issue** → elige este repo y la plantilla **Historia de usuario**. Cambia el ejemplo por tu libro y pulsa **Create**.
 4. Abre tu tarjeta, asígnatela (*Assignees* → *Assign yourself*) y arrástrala a `Ready`.
 
@@ -72,5 +72,5 @@ Si un compañero te pide revisión, eso va antes que seguir con lo tuyo.
 ## Si algo falla
 
 - **El check *Guardián de PRs* sale en rojo:** pulsa *Details* y te dice qué falta: el nombre de la rama o el `Closes #7`. La descripción del PR se puede editar.
-- ***This branch has conflicts*:** es normal, todos tocamos `lista.js`. Pulsa *Resolve conflicts*, deja las dos líneas, borra las marcas `<<<<<<<` `=======` `>>>>>>>` y pulsa *Mark as resolved* → *Commit merge*.
+- ***This branch has conflicts*:** es normal, todo el mundo toca `lista.js`. Pulsa *Resolve conflicts*, deja las dos líneas, borra las marcas `<<<<<<<` `=======` `>>>>>>>` y pulsa *Mark as resolved* → *Commit merge*.
 - **Tu libro no se ve:** revisa que el nombre en `lista.js` es igual al del archivo, y que no falta ninguna coma.
