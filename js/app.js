@@ -49,7 +49,7 @@ function registrarLibro(libro) {
 
   const total = document.querySelectorAll(".libro").length;
   document.getElementById("contador").textContent =
-    total === 1 ? "1 libro recomendado" : `${total} libros recomendados`;
+    total === 1 ? "📚 1 libro recomendado" : `📚 ${total} libros recomendados`;
 }
 
 function cargarLibros(lista) {
@@ -59,3 +59,16 @@ function cargarLibros(lista) {
     document.body.append(script);
   }
 }
+
+// El botón del dado: elige un libro al azar, distinto del anterior, y lo señala.
+document.getElementById("azar").addEventListener("click", () => {
+  const libros = [...document.querySelectorAll(".libro")];
+  if (!libros.length) return;
+  const anterior = document.querySelector(".elegido");
+  const otros = libros.filter((libro) => libro !== anterior);
+  const elegido = (otros.length ? otros : libros)[Math.floor(Math.random() * (otros.length || libros.length))];
+  if (anterior) anterior.classList.remove("elegido");
+  void elegido.offsetWidth; // reinicia la animación si vuelve a salir el mismo
+  elegido.classList.add("elegido");
+  elegido.scrollIntoView({ behavior: "smooth", block: "center" });
+});
