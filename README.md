@@ -26,6 +26,13 @@ Por equipos de 3 o 4. Cada equipo recomienda libros en la web de la clase (`inde
 
 **Entrega:** el sprint termina 20 minutos antes del final de la clase. Cuenta lo que esté en `main`.
 
+**Antes de empezar:** clona el repo una sola vez, sin fork (ya tienes permiso):
+
+```bash
+git clone https://github.com/Bootcamp-P8-IA-Madrid/GitHub-Projects.git
+cd GitHub-Projects
+```
+
 ### 1. Planifica con tu equipo
 
 1. El equipo elige un nombre y un libro por persona.
