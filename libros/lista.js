@@ -1,7 +1,9 @@
 const LISTA_LIBROS = [
-  "el-shock-del-futuro",
-  "el-juego-de-ender",
-  "la-sombra-del-viento",
-  "el-hombre-en-busca-de-sentido",
-  "mentes-sin-limites",
+    "el-shock-del-futuro",
+    "el-principito",
+    "la-biblioteca-de-la-medianoche",
+    "la-sombra-del-viento",
+    "el-hombre-en-busca-de-sentido",
+    "mentes-sin-limites",
+    "el-juego-de-ender",
 ];
