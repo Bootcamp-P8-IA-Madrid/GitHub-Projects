@@ -5,8 +5,8 @@
 registrarLibro({
   titulo: "Título del libro",
   autor: "Quien lo escribió",
-  equipo: "Nombre de tu equipo",
+  equipo: "Nombre de tu equipo",       // escrito igual que el resto del equipo
   porQue: "Por qué lo recomiendas, en dos o tres frases.",
   github: "tu-usuario-de-github",     // sin @
-  issue: 0,                           // el número de tu issue
+  issue: 0,                           // el número de tu issue, sin #
 });
