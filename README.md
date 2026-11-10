@@ -49,7 +49,7 @@ cd GitHub-Projects
    git pull
    git checkout -b feature/7-el-hobbit
    ```
-   Solo minúsculas, números y guiones.
+   Solo minúsculas sin tildes ni ñ, números y guiones.
 3. Copia `libros/_plantilla.js` como `libros/el-hobbit.js` y rellénalo.
 4. En `libros/lista.js`, añade `"el-hobbit",` como última línea dentro de los corchetes.
 5. Abre `index.html` y comprueba que tu libro se ve.
@@ -72,7 +72,7 @@ cd GitHub-Projects
    4. Pulsa **Submit review**.
 
    Está aprobado cuando junto al nombre de quien revisa sale un check verde y el texto *approved these changes*.
-5. Pulsa **Merge pull request**. Mira el tablero: tu tarjeta ha pasado sola a `Done`.
+5. Pulsa **Merge pull request** → **Confirm merge**. Mira el tablero: tu tarjeta ha pasado sola a `Done`.
 6. Pulsa **Delete branch**. En tu ordenador:
    ```bash
    git checkout main
@@ -85,5 +85,7 @@ Si un compañero te pide revisión, eso va antes que seguir con lo tuyo.
 ## 🛠️ Si algo falla
 
 - **El check *Guardián de PRs* sale en rojo:** pulsa *Details* y te dice qué falta: el nombre de la rama o el `Closes #7`. La descripción del PR se puede editar.
-- ***This branch has conflicts*:** es normal, todo el mundo toca `lista.js`. Pulsa *Resolve conflicts*, deja las dos líneas, borra las marcas `<<<<<<<` `=======` `>>>>>>>` y pulsa *Mark as resolved* → *Commit merge*.
+- ***This branch has conflicts*:** es normal, todo el mundo toca `lista.js`. Pulsa *Resolve conflicts*, deja todas las líneas de libros, borra las marcas `<<<<<<<` `=======` `>>>>>>>` y pulsa *Mark as resolved* → *Commit merge*. Puede pasarte más de una vez.
+- **Te piden cambios:** corrige en la misma rama y repite `git add libros/`, `git commit` y `git push`. Si el push se rechaza, haz antes `git pull --no-rebase`.
 - **Tu libro no se ve:** revisa que el nombre en `lista.js` es igual al del archivo, y que no falta ninguna coma.
+- **No se ve ningún libro:** el error está en `lista.js`, una coma o una marca de conflicto olvidada. F12 → *Console* te dice la línea.
