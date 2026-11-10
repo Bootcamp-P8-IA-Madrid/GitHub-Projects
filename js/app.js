@@ -57,6 +57,7 @@ function cargarLibros(lista) {
   for (const nombre of lista) {
     const script = document.createElement("script");
     script.src = `libros/${nombre}.js`;
+    script.async = false; // se cargan en el orden de la lista
     document.body.append(script);
   }
 }
