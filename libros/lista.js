@@ -6,4 +6,5 @@ const LISTA_LIBROS = [
     "el-hombre-en-busca-de-sentido",
     "mentes-sin-limites",
     "el-juego-de-ender",
+    "lagrimas-en-la-lluvia",
 ];
