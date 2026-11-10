@@ -7,5 +7,6 @@ const LISTA_LIBROS = [
   "la-milla-verde",
   "el-principito",
   "el-juego-de-ender",
-  "lagrimas-en-la-lluvia"
+  "lagrimas-en-la-lluvia",
+  "caballo-de-troya"
 ];
