@@ -9,4 +9,12 @@ const LISTA_LIBROS = [
     "mentes-sin-limites",
     "el-juego-de-ender",
     "lagrimas-en-la-lluvia",
+  "el-principito",
+  "la-biblioteca-de-la-medianoche",
+  "la-sombra-del-viento",
+  "el-hombre-en-busca-de-sentido",
+  "mentes-sin-limites",
+  "el-juego-de-ender",
+  "lagrimas-en-la-lluvia",
+  "fundacion-primera",
 ];
