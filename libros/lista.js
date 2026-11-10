@@ -1,6 +1,13 @@
-// Añade el nombre de tu archivo (sin .js) como última línea dentro de los corchetes.
-
 const LISTA_LIBROS = [
-  "el-shock-del-futuro", "el-algoritmo-paternalista",
+  "el-algoritmo-paternalista",
+  "el-shock-del-futuro",
+  "la-biblioteca-de-la-medianoche",
+  "la-sombra-del-viento",
+  "el-hombre-en-busca-de-sentido",
+  "mentes-sin-limites",
+  "la-milla-verde",
+  "el-principito",
+  "el-juego-de-ender",
+  "lagrimas-en-la-lluvia"
 ];
 
