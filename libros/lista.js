@@ -2,4 +2,5 @@
 
 const LISTA_LIBROS = [
   "el-shock-del-futuro",
+  "burlar-al-diablo"
 ];
