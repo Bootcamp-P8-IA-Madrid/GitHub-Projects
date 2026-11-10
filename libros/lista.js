@@ -3,4 +3,5 @@
 const LISTA_LIBROS = [
   "el-shock-del-futuro",
   "mentes-sin-limites",
+  "el-padrino",
 ];
