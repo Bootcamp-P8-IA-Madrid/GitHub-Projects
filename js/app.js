@@ -37,9 +37,10 @@ function registrarLibro(libro) {
 
   const nota = crear("div", "nota");
   nota.append(crear("p", "porque", libro.porQue || ""));
-  if (libro.github) {
-    const firma = crear("a", "firma", "@" + libro.github);
-    firma.href = "https://github.com/" + libro.github;
+  const usuario = (libro.github || "").replace(/^@/, "");
+  if (usuario) {
+    const firma = crear("a", "firma", "@" + usuario);
+    firma.href = "https://github.com/" + usuario;
     nota.append(firma);
   }
 
