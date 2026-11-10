@@ -4,4 +4,5 @@ const LISTA_LIBROS = [
   "el-shock-del-futuro", 
   "el-hombre-en-busca-de-sentido",
   "mentes-sin-limites",
+  "cien-anos-de-soledad"
 ];
