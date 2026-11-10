@@ -3,10 +3,10 @@
 // Si necesitas comillas dentro de un texto, usa « » o ' ', nunca comillas dobles.
 
 registrarLibro({
-  titulo: "El algoritmo paternalista",
-  autor: "Ujué Agudo y Karlos g. Liberal",
-  equipo: "DDEKOY",       // escrito igual que el resto del equipo
-  porQue: "Los autores astrean el mito del progreso tecnológico en las profundidades de la historia y recorren a vista de pájaro los límites de la inteligencia humana (sesgos, heurística).",
-  github: "danigue10",     // sin @
+  titulo: "Título del libro",
+  autor: "Quien lo escribió",
+  equipo: "Nombre de tu equipo",       // escrito igual que el resto del equipo
+  porQue: "Por qué lo recomiendas, en dos o tres frases.",
+  github: "tu-usuario-de-github",     // sin @
   issue: 0,                           // el número de tu issue, sin #
 });
