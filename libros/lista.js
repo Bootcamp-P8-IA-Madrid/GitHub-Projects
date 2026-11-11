@@ -1,4 +1,5 @@
 const LISTA_LIBROS = [
+  "el-algoritmo-paternalista",
   "el-shock-del-futuro",
   "la-biblioteca-de-la-medianoche",
   "la-sombra-del-viento",
@@ -10,3 +11,4 @@ const LISTA_LIBROS = [
   "lagrimas-en-la-lluvia",
   "cien-anos-de-soledad"
 ];
+
