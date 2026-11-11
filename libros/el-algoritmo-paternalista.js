@@ -8,5 +8,5 @@ registrarLibro({
   equipo: "DDEKOY",       // escrito igual que el resto del equipo
   porQue: "Los autores astrean el mito del progreso tecnológico en las profundidades de la historia y recorren a vista de pájaro los límites de la inteligencia humana (sesgos, heurística).",
   github: "danigue10",     // sin @
-  issue: 0,                           // el número de tu issue, sin #
+  issue: 2,                           // el número de tu issue, sin #
 });
