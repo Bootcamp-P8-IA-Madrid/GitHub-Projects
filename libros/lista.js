@@ -8,6 +8,7 @@ const LISTA_LIBROS = [
   "mentes-sin-limites",
   "la-biblioteca-de-la-medianoche",
   "la-sombra-del-viento",
+  "el-shock-del-futuro", 
   "el-hombre-en-busca-de-sentido",
   "mentes-sin-limites",
   "la-milla-verde",
@@ -16,4 +17,5 @@ const LISTA_LIBROS = [
   "el-juego-de-ender",
   "lagrimas-en-la-lluvia",
   "cien-anos-de-soledad",
+  "kika-superbruja",
 ];
