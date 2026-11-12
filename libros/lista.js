@@ -16,6 +16,7 @@ const LISTA_LIBROS = [
   "el-principito",
   "el-juego-de-ender",
   "lagrimas-en-la-lluvia",
+  "caballo-de-troya-1-jerusalen",
   "cien-anos-de-soledad",
   "kika-superbruja",
 ];
