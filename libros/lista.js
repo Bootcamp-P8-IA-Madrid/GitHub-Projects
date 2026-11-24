@@ -1,13 +1,20 @@
 const LISTA_LIBROS = [
+  "burlar-al-diablo",
+  "caballo-de-troya-1-jerusalen",
+  "cien-anos-de-soledad",
   "el-algoritmo-paternalista",
-  "el-shock-del-futuro",
-  "la-biblioteca-de-la-medianoche",
-  "la-sombra-del-viento",
   "el-hombre-en-busca-de-sentido",
-  "mentes-sin-limites",
-  "la-milla-verde",
-  "el-principito",
   "el-juego-de-ender",
-  "lagrimas-en-la-lluvia"
+  "el-padrino",
+  "el-principito",
+  "el-shock-del-futuro",
+  "fundacion-primera",
+  "kika-superbruja",
+  "la-biblioteca-de-la-medianoche",
+  "la-metamorfosis-de-kafka",
+  "la-milla-verde",
+  "la-sombra-del-viento",
+  "mentes-sin-limites",
+  "lagrimas-en-la-lluvia",
+  "piensa-claro",
 ];
-

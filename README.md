@@ -47,7 +47,8 @@ cd GitHub-Projects
    ```bash
    git checkout main
    git pull
-   git checkout -b feature/7-el-hobbit
+   git checkout -b feature/7-el-hobbi
+   t
    ```
    Solo minúsculas sin tildes ni ñ, números y guiones.
 3. Copia `libros/_plantilla.js` como `libros/el-hobbit.js` y rellénalo.
