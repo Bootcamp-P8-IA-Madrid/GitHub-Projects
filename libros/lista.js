@@ -8,6 +8,7 @@ const LISTA_LIBROS = [
   "el-juego-de-ender",
   "el-shock-del-futuro",
   "mentes-sin-limites",
+  "el-padrino",
   "el-principito",
   "lagrimas-en-la-lluvia",
   "caballo-de-troya-1-jerusalen",
